@@ -1,0 +1,38 @@
+html
+    head
+        title TreinaWeb
+    body
+    each val in data
+        li
+            div= val.name
+            div= val.price
+            div= val.category
+            br
+    br
+    br
+    
+    form(action="/" method="post")
+        label Name:
+        input(
+            type="text"
+            name="name"
+            required
+        )
+        br
+        label Price:
+        input(
+            type="text"
+            name="price"
+            required
+        )
+        br
+        label Category:
+        select(name="category" required)
+            option Back-End
+            option Desenvolvimento de Jogos
+            option Front-End
+            option Mobile
+        input(
+            type="submit"
+            value="enviar"
+        )
