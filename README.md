@@ -8,7 +8,7 @@ Este repositório contém um projeto em Node.
 - [EJS](http://ejs.co) Template Node 
 
 - [Clusters](https://nodejs.org/api/cluster.html) Proporciona melhor desempenho para a execução de processos
-- Streaming(https://nodejs.org/dist/latest-v8.x/docs/api/stream.html) Uma tecnologia que envia informações multimídia
+- [Streaming](https://nodejs.org/dist/latest-v8.x/docs/api/stream.html) Uma tecnologia que envia informações multimídia
 
 ## Otimização do desenvolvimento com Node
 - [Gulp](https://gulpjs.com/) Automatiza tarefas
